@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .App {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .landing-page, .dashboard {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1, h2, h3 {
+    color: #333;
+  }
+  
+  .persona-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .persona-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    transition: all 0.3s ease;
+  }
+  
+  .persona-card.selected {
+    background-color: #e6f7ff;
+    border-color: #1890ff;
+  }
+  
+  .persona-card.primary {
+    background-color: #fff7e6;
+    border-color: #ffa940;
+  }
+  
+  button {
+    background-color: #1890ff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #40a9ff;
+  }
+  
+  button:disabled {
+    background-color: #d9d9d9;
+    cursor: not-allowed;
+  }
+  
+  .primary-button {
+    background-color: #ffa940;
+  }
+  
+  .primary-button:hover {
+    background-color: #ffc069;
+  }
+  
+  .dashboard .primary-persona {
+    background-color: #fff7e6;
+    border: 1px solid #ffa940;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .dashboard .selected-personas {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
