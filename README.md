@@ -20,3 +20,5 @@ happiness-app/
 ├── package.json
 └── README.md
 ```
+
+Node.js version 16 or below.
